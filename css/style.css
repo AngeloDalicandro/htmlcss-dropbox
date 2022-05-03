@@ -465,4 +465,23 @@ h1 {
 }
 
 /* section 7 */
+.seventh-section {
+    background-color: #b4d0e7;
+    padding: 110px 0;
+}
+.cta-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
+.cta-flex h2 {
+    color: #61082b;
+}
+
+.cta-flex .btn-white {
+    height: fit-content;
+    border: none;
+    padding: 10px 60px;
+}
+
+/* section 8 */
