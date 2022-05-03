@@ -5,3 +5,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+
+/* header */
+
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    padding: 0 15px;
+    font-weight: 600;
+}
