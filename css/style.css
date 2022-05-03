@@ -50,6 +50,13 @@ h2 {
     font-size: 50px;
 }
 
+.people {
+    text-align: center;
+    padding: 7px 0;
+    border-bottom: 1px solid #d4d4d7;
+    font-weight: 600;
+}
+
 /* header */
 
 header {
@@ -179,14 +186,6 @@ h1 {
     border: 1px solid #d4d4d7;
 }
 
-.people {
-    text-align: center;
-    padding: 7px 0;
-    border-bottom: 1px solid #d4d4d7;
-    font-weight: 600;
-
-}
-
 .container-offer {
     width: 85%;
     margin: 30px auto 100px auto;
@@ -245,9 +244,48 @@ h1 {
     font-weight: 600;
 }
 
+/* section 2 */
+
+.second-section .container {
+    margin-top: 40px;
+    border: 1px solid #d4d4d7;
+}
+
+.enterprise-flex {
+    display: flex;
+}
+
+.container-e {
+    width: 90%;
+    margin: 20px auto 30px auto;
+}
+
+.e-large-col {
+    width: 70%;
+}
+
+.e-narrow-col {
+    width: 30%;
+    text-align: center;
+}
+
+.e-large-col h3 {
+    font-size: 32px;
+}
+
+.e-large-col h4 {
+    margin: 24px 0;
+    font-size: 22px;
+}
+
+.e-large-col p {
+    font-size: 20px;
+    font-weight: 500;
+} 
 
 
 
-
-
-
+.e-narrow-col .btn-blue {
+    display: block;
+    width: 100%;
+}
