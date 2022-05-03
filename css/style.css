@@ -38,11 +38,6 @@ ul {
     margin: 0 auto;
 }
 
-.container-offer {
-    width: 85%;
-    margin: 30px auto 50px auto;
-}
-
 .narrow-col {
     width: 35%;
 }
@@ -174,12 +169,9 @@ h1 {
 }
 
 /* offer columns */
-
 .offer-flex {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .offer-col {
@@ -192,6 +184,11 @@ h1 {
     padding: 7px 0;
     border-bottom: 1px solid #d4d4d7;
 
+}
+
+.container-offer {
+    width: 85%;
+    margin: 30px auto 50px auto;
 }
 
 .offer-col h3 {
@@ -209,22 +206,28 @@ h1 {
     margin-bottom: 30px;
 }
 
-.space {
+.folder {
     margin: 20px 0;
 }
 
-.btn-col {
+.try-free {
     text-align: center;
-    background-color:#0061ff;
-    color: white;   
-    width: 85%;
-    margin: 0 auto;
-    padding: 5px 0;
+    margin: 30px 0;
 }
 
-.buy-now {
-    margin: 20px 0;
+.try-free .btn-blue {
+    display: block;
+    width: 100%;
 }
+
+.line {
+    display: inline-block;
+    width: 40px;
+    border: 1px solid #e1e1e3;
+    margin: 30px 0;
+}
+
+
 
 
 
