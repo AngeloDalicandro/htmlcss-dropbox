@@ -23,19 +23,34 @@ ul {
 .btn-blue {
     color: white;
     background-color: #0061ff;
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-weight: 400;
+    display: inline-block;
 }
 
+.container-jf {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.narrow-col {
+    width: 35%;
+}
+
+.large-col {
+    width: 65%;
+}
 
 /* header */
 
 header {
+    background-color: white;
     height: 80px;
     width: 100%;
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 10;
 }
 
 header a {
@@ -57,4 +72,52 @@ header ul {
 header li {
     padding: 0 15px;
     font-weight: 600;
+}
+
+/* main */
+
+/* jumbotron */
+
+.jumbotron {
+    margin-top: 80px;
+    position: relative;
+    background-color: #b4d0e7;
+}
+
+.jumbotron .container-jf {
+    position: relative;
+    left: 0;
+    top: 60px;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+.jumbo-flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+.jumbo-flex .narrow-col {
+    padding-right: 40px;
+}
+
+.jumbo-flex .large-col {
+    padding: 0 20px 0 10px;
+}
+
+.narrow-col .btn-blue {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.narrow-col p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.narrow-col i {
+    margin-top: 40px;
+    font-size: 40px;
 }
