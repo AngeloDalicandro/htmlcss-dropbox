@@ -28,6 +28,16 @@ ul {
     display: inline-block;
 }
 
+.btn-white {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
 .container-jf {
     width: 80%;
     margin: 0 auto;
@@ -57,8 +67,16 @@ h2 {
     font-weight: 600;
 }
 
-/* header */
+.a-reset {
+    color: inherit;
+    text-decoration: none;
+}
 
+.underline {
+    text-decoration: underline;
+}
+
+/* header */
 header {
     background-color: white;
     height: 80px;
@@ -257,7 +275,7 @@ h1 {
 
 .container-e {
     width: 90%;
-    margin: 20px auto 30px auto;
+    margin: 30px auto;
 }
 
 .e-large-col {
@@ -283,9 +301,56 @@ h1 {
     font-weight: 500;
 } 
 
-
-
 .e-narrow-col .btn-blue {
     display: block;
     width: 100%;
 }
+
+/* section 3 */
+.third-section .container {
+    margin: 100px auto;
+}
+
+.partner-flex {
+    display: flex;
+}
+
+.partner-flex .large-col {
+    padding-right: 10%;
+}
+
+.partner-flex h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.partner-flex p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* section 4 */
+.operation-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.operation-col {
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.operation-col h3 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.operation-col p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* section 5 */
