@@ -545,7 +545,11 @@ h1 {
     display: block;
 }
 
-.fa-angle-down {
+.faq-flex:hover .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+.rotate-padding {
     padding-right: 60px;
 }
 
