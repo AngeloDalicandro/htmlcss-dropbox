@@ -112,6 +112,7 @@ header a {
 
 header ul {
     display: flex;
+    align-items: center;
 }
 
 header li {
@@ -235,6 +236,11 @@ h1 {
     margin-bottom: 30px;
 }
 
+.specifics {
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+
 .folder {
     margin: 20px 0;
 }
@@ -262,8 +268,14 @@ h1 {
     color: #0f6bff;
 }
 
-.container-offer ul li {
+.container-offer li {
     font-weight: 600;
+}
+
+.specifics li {
+    line-height: 18px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 /* section 2 */
